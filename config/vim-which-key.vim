@@ -34,6 +34,7 @@
   let g:which_key_map.c.j = 'Mover línea abajo'
   let g:which_key_map.c.k = 'Mover línea arriba'
   let g:which_key_map.c.m = 'Man'
+  let g:which_key_map.c.n = 'Cambiar al directorio nvim'
   let g:which_key_map.c.w = 'Cambiar al directorio actual'
   let g:which_key_map.f = { 'name' : '+FZF' }
   let g:which_key_map.f.b = 'Listar Buffers'
