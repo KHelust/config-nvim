@@ -1,6 +1,6 @@
 " Nvim Init
 
-" Plugin config
+" Residenciar archivos de configuración
   source ~/.config/nvim/config/basic.vim
   source ~/.config/nvim/config/coc.vim
   source ~/.config/nvim/config/fzf.vim
