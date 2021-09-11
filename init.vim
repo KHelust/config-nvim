@@ -9,8 +9,4 @@
   source ~/.config/nvim/config/vim-pandoc.vim
   source ~/.config/nvim/config/vim-which-key.vim
   source ~/.config/nvim/config/vimtex.vim
-
-" Maps
-  source ~/.config/nvim/maps/basic-maps.vim
-  source ~/.config/nvim/maps/fzf-maps.vim
-  source ~/.config/nvim/maps/git-maps.vim
+  source ~/.config/nvim/config/maps.vim
