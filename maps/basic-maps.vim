@@ -15,10 +15,10 @@ noremap _ g_
 " Basics
 inoremap <C-u> <Esc>viwUea
 inoremap jk <Esc>
-inoremap <leader>dv ÷
-inoremap <leader>mt ·
+inoremap <leader>div ÷
+inoremap <leader>mul ·
 " Archivo Sh-bang {{{2
-inoremap <leader>sb #!/bin/sh<CR><CR>
+inoremap <leader>shb #!/bin/sh<CR><CR>
 " Mover líneas {{{2
 inoremap <C-j> <esc>:m .+1<CR>==
 inoremap <C-k> <esc>:m .-2<CR>==
@@ -35,7 +35,6 @@ inoremap " "<c-g>u
 " }}}
 
 " Normal con <leader>: {{{1
-" Guardar {{{2
 " Archivos {{{2
 nnoremap <silent> <leader>ae :edit<Space>
 nnoremap <silent> <leader>ao :source<Space>
@@ -60,7 +59,7 @@ nnoremap <leader>cm :Man<Space>
 nnoremap <leader>cn :cd $HOME/KHelust/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
 " Help {{{2
-nnoremap <leader>hc :helpclose<Space>
+nnoremap <leader>hc :helpclose<CR>
 nnoremap <leader>he :help<Space>
 nnoremap <leader>hg :helpgrep<Space>
 nnoremap <leader>ht :helptags<Space>
