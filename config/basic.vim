@@ -50,7 +50,7 @@ call plug#begin('~/.config/nvim/plugged')
   " Syntax
       Plug 'mboughaba/i3config.vim'
   " Theme
-      Plug 'drewtempelmeyer/palenight.vim'
+      Plug 'joshdick/onedark.vim'
       Plug 'vim-airline/vim-airline'
   " Zen
       Plug 'junegunn/goyo.vim' " Focus Mode.
@@ -97,7 +97,7 @@ call plug#end()
   let maplocalleader = ","                          " maplocalleader.
 
 " ColorScheme
-  colorscheme palenight
+  colorscheme onedark
 
 " Nvim-Colorizer
 
