@@ -1,4 +1,5 @@
 " Maps
+" vim:foldmethod=marker
 
 " Command: {{{1
 " Save sudo {{{2
@@ -146,6 +147,3 @@ vnoremap J :m '>+1<CR>gv=gv
 vnoremap K :m '<-2<CR>gv=gv
 " }}}
 " }}}
-
-" FoldMethod {{{1
-" vim:foldmethod=marker
