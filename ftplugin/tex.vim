@@ -139,6 +139,7 @@
     inoremap <leader>bfl \begin{flushleft}<Enter><Enter>\end{flushleft}<Enter><++><Esc>2ki<Tab>
     inoremap <leader>bfr \begin{flushright}<Enter><Enter>\end{flushright}<Enter><++><Esc>2ki<Tab>
     inoremap <leader>ctg \centering<Space>
+    inoremap <leader>nin \noindent<Space>
     inoremap <leader>rgl \raggedleft
     inoremap <leader>rgr \raggedright
 
