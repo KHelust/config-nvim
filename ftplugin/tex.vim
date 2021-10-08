@@ -130,7 +130,7 @@
     inoremap <leader>eqt \begin{equation}<Enter><Enter>\end{equation}<Enter><++><Esc>2ki<Tab>
   " }}}
 
-  " Estilos bibliográficos {{{2
+  " Estilos tipográficos {{{2
     inoremap <leader>mph \emph{} <++><Esc>T{i
     inoremap <leader>tbf \textbf{} <++><Esc>T{i
     inoremap <leader>tit \textit{} <++><Esc>T{i
