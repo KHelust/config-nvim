@@ -100,22 +100,17 @@ call plug#end()
   colorscheme onedark
 
 " Nvim-Colorizer
-
   lua require'colorizer'.setup()
 
 " Basic Autocommads
-
 " Remove whitespace on save
   " autocmd BufWritePre * %s/\s\+$//e
-
 " Unicode characters UniCycle
   autocmd VimEnter *.tex UniCycleOn
-
 " Vertically center
   " autocmd InsertEnter * norm zz
 
 " Fold files
-
 " profile files
 au BufWinLeave .profile mkview
 au BufWinEnter .profile silent loadview
@@ -123,13 +118,11 @@ au BufWinLeave .bash_profile mkview
 au BufWinEnter .bash_profile silent loadview
 au BufWinLeave .zprofile mkview
 au BufWinEnter .zprofile silent loadview
-
 " aliases
 au BufWinLeave aliases mkview
 au BufWinEnter aliases silent loadview
 au BufWinLeave bash_aliases mkview
 au BufWinEnter bash_aliases silent loadview
-
 " Other files
 au BufWinLeave comandos mkview
 au BufWinEnter comandos silent loadview
@@ -139,21 +132,18 @@ au BufWinLeave config mkview
 au BufWinEnter config silent loadview
 
 " Hightlight Yank
-
   augroup highlight_yank
     autocmd!
     autocmd TextYankPost * silent! lua require'vim.highlight'.on_yank()
   augroup END
 
 " Netrw
-
   let g:netrw_banner = 0
   let g:netrw_liststyle = 3
   let g:netrw_altv = 1
   let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
 
 " Newline
-
   " Create new line at end of chain
     function! Chomp(str)
     	return substitute(a:str, '\n$', '', '')
@@ -162,7 +152,6 @@ au BufWinEnter config silent loadview
     autocmd BufEnter * setlocal formatoptions-=cro
 
 " Syntax Highlighting
-
   function! <SID>SynStack()
     if !exists("*synstack")
       return
@@ -171,7 +160,6 @@ au BufWinEnter config silent loadview
   endfunc
 
 " VimStartup
-
   augroup vimStartup
     au!
       autocmd BufReadPost *
@@ -181,12 +169,9 @@ au BufWinEnter config silent loadview
   augroup END
 
 " Floaterm
-
-" Options
   let g:floaterm_autoclose = 1
 
 " Vim-Airline
-
   let g:airline#extensions#wordcount#enabled = 1
   let g:airline_powerline_fonts = 1
   let g:airline#extensions#tabline#enabled = 1
