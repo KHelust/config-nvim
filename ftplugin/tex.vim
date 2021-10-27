@@ -118,8 +118,8 @@
   " Referencias cruzadas {{{2
     inoremap <leader>ntp \footnote{}<Esc>T{i
     inoremap <leader>hrf \href{}{<++>} <++><Esc>2T{i
-    inoremap <leader>rep (\ref{})<++><Esc>F}i
-    inoremap <leader>ref \ref{} <++><Esc>T{i
+    inoremap <leader>rpe (\ref{})<++><Esc>F}i
+    inoremap <leader>rfe \ref{} <++><Esc>T{i
   " }}}
 
   " Elementos flotantes {{{2
@@ -140,7 +140,7 @@
     inoremap <leader>ttt \texttt{} <++><Esc>T{i
     inoremap <leader>tsc \textsc{} <++><Esc>T{i
     inoremap <leader>tno \textnormal{} <++><Esc>T{i
-    inoremap <leader>{em {\em} <++><Esc>T{i
+    inoremap <leader>{em {\em<Space>}<Space><++><Esc>F}i
     inoremap <leader>bfs {\bfseries<Space>} <++><Esc>F}i
     inoremap <leader>its {\itshape<Space>} <++><Esc>F}i
     inoremap <leader>mds {\mdseries} <++><Esc>T{i
