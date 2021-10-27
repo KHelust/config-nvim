@@ -16,7 +16,7 @@ noremap _ g_
 " Basics
 inoremap <C-u> <Esc>viwUea
 inoremap jk <Esc>
-inoremap <leader>div ÷
+inoremap <leader>dvn ÷
 inoremap <leader>mul ·
 " Archivo Sh-bang {{{2
 inoremap <leader>shb #!/bin/sh<CR><CR>
