@@ -80,8 +80,8 @@
     inoremap <leader>pc [@].<++><Esc>T@i
 
   " Code
-    inoremap <leader>cd ```<Enter><++><Enter>```<Esc>2kA
-    inoremap <leader>cr ```r<Enter><Enter>```<Enter><Enter><++><Esc>3ki
+    inoremap <leader>ccd ```<Enter><++><Enter>```<Esc>2kA
+    inoremap <leader>ccr ```r<Enter><Enter>```<Enter><Enter><++><Esc>3ki
 
   " Guides
     inoremap <leader>gg <++>
