@@ -53,11 +53,11 @@ nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>bp :bprev<CR>
 " Cambiar Directorios / Comandos Man/Mover líneas {{{2
 nnoremap <leader>cd :cd<Space>
-nnoremap <leader>cf :cd $HOME/KHelust/dotfiles<CR>%:p:h<CR>:pwd<CR>
+nnoremap <leader>cf :cd $HOME/KHelust/Git-Repos/dotfiles<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cj :m .+1<CR>==
 nnoremap <leader>ck :m .-2<CR>==
 nnoremap <leader>cm :Man<Space>
-nnoremap <leader>cn :cd $HOME/KHelust/config-nvim<CR>%:p:h<CR>:pwd<CR>
+nnoremap <leader>cn :cd $HOME/KHelust/Git-Repos/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
 " FZF maps {{{2
 nnoremap <leader>fb :Buffers<CR>
@@ -106,7 +106,8 @@ nnoremap <leader>pu :!opout <c-r>%<CR><CR>
 nnoremap Y yg_
 nnoremap n nzzzv
 nnoremap N Nzzzv
-nnoremap J mzJ`z
+nnoremap gJ gJg_
+nnoremap J Jg_
 nnoremap <F12> :edit<Space>$INIT<CR>
 nnoremap <F10> :only<CR>
 " Cargar init {{{2
