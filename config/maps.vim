@@ -51,13 +51,14 @@ nnoremap <silent> <leader>anv :vnew<Space>
 nnoremap <leader>bd :bd<CR>
 nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>bp :bprev<CR>
-" Cambiar Directorios/Mover líneas {{{2
+" Cambiar Directorios {{{2
 nnoremap <leader>cd :cd<Space>
 nnoremap <leader>cf :cd $HOME/KHelust/Git-Repos/dotfiles<CR>%:p:h<CR>:pwd<CR>
-nnoremap <leader>cj :m .+1<CR>==
-nnoremap <leader>ck :m .-2<CR>==
 nnoremap <leader>cn :cd $HOME/KHelust/Git-Repos/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
+" Desplazar líneas {{{2
+nnoremap <leader>dj :m .+1<CR>==
+nnoremap <leader>dk :m .-2<CR>==
 " Git {{{2
 nnoremap <leader>gg :G<CR>
 nnoremap <leader>gp :Git push<CR>
