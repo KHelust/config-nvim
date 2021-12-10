@@ -76,7 +76,7 @@ nnoremap <leader>ii :setlocal spell! spelllang=en_us<CR>
 nnoremap <leader>qq :q<CR>
 nnoremap <leader>qx :x<CR>
 nnoremap <leader>qz :q!<CR>
-" Search & Replace {{{2
+" Substituir y Buscar {{{2
 nnoremap <leader>sa /
 nnoremap <leader>sd ?
 nnoremap <leader>ss :%s//gI<Left><Left><Left>

@@ -121,7 +121,7 @@
   let g:which_key_map.r.p.w = 'Compilar word con RMarkdown'
   let g:which_key_map.r.y = { 'name' : '+YAML' }
   let g:which_key_map.r.y.l = 'Insertar YAML'
-  let g:which_key_map.s = { 'name' : '+Substituir/Buscar' }
+  let g:which_key_map.s = { 'name' : '+Substituir y Buscar' }
   let g:which_key_map.s.a = 'Buscar adelante'
   let g:which_key_map.s.d = 'Buscar detrás'
   let g:which_key_map.s.s = 'Substituir'
