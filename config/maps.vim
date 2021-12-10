@@ -66,7 +66,6 @@ nnoremap <leader>gp :Git push<CR>
 nnoremap <leader>hc :helpclose<CR>
 nnoremap <leader>he :help<Space>
 nnoremap <leader>hg :helpgrep<Space>
-nnoremap <leader>ht :helptags<Space>
 " Idiomas {{{2
 nnoremap <leader>ie :setlocal spell! spelllang=es_mx<CR>
 nnoremap <leader>ii :setlocal spell! spelllang=en_us<CR>
