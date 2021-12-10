@@ -28,11 +28,15 @@
   let g:which_key_map.b.d = 'Borrar buffer'
   let g:which_key_map.b.n = 'Buffer siguiente'
   let g:which_key_map.b.p = 'Buffer previo'
-  let g:which_key_map.c = { 'name' : '+Directorios' }
+  let g:which_key_map.c = { 'name' : '+Cambiar Directorios/Compilar' }
   let g:which_key_map.c.d = 'Cambiar directorio'
   let g:which_key_map.c.f = 'Cambiar al directorio dotfiles'
   let g:which_key_map.c.n = 'Cambiar al directorio nvim'
   let g:which_key_map.c.w = 'Cambiar al directorio actual'
+  let g:which_key_map.c.p = { 'name' : '+Compilar' }
+  let g:which_key_map.c.p.a = 'Compilar y abrir archivo'
+  let g:which_key_map.c.p.c = 'Compilar'
+  let g:which_key_map.c.p.u = 'Abrir archivo compilado'
   let g:which_key_map.d = { 'name' : '+Desplazar líneas' }
   let g:which_key_map.d.j = 'Desplazar línea hacia abajo'
   let g:which_key_map.d.k = 'Desplazar línea hacia arriba'
@@ -105,10 +109,6 @@
   let g:which_key_map.o.o = 'CocList outline'
   let g:which_key_map.o.r = 'Plug CoC Rename'
   let g:which_key_map.o.s = 'CocList symbols'
-  let g:which_key_map.p = { 'name' : '+Compilar' }
-  let g:which_key_map.p.a = 'Compilar y abrir archivo'
-  let g:which_key_map.p.c = 'Compilar'
-  let g:which_key_map.p.u = 'Abrir archivo compilado'
   let g:which_key_map.q = { 'name' : '+Quit' }
   let g:which_key_map.q.q = 'Cerrar'
   let g:which_key_map.q.x = 'Cerrar guardando'

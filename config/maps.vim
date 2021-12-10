@@ -51,11 +51,14 @@ nnoremap <silent> <leader>anv :vnew<Space>
 nnoremap <leader>bd :bd<CR>
 nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>bp :bprev<CR>
-" Cambiar Directorios {{{2
+" Cambiar Directorios/Compilar {{{2
 nnoremap <leader>cd :cd<Space>
 nnoremap <leader>cf :cd $HOME/KHelust/Git-Repos/dotfiles<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cn :cd $HOME/KHelust/Git-Repos/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
+nnoremap <leader>cpa :w! \| !compiler <c-r>%<CR> \|:!opout <c-r>%<CR><CR> 
+nnoremap <leader>cpc :w! \| !compiler <c-r>%<CR><CR>
+nnoremap <leader>cpo :!opout <c-r>%<CR><CR>
 " Desplazar líneas {{{2
 nnoremap <leader>dj :m .+1<CR>==
 nnoremap <leader>dk :m .-2<CR>==
@@ -77,10 +80,6 @@ nnoremap <leader>qz :q!<CR>
 nnoremap <leader>sa /
 nnoremap <leader>sd ?
 nnoremap <leader>ss :%s//gI<Left><Left><Left>
-" Compilar y Abrir archivos compilados {{{2
-nnoremap <leader>pa :w! \| !compiler <c-r>%<CR> \|:!opout <c-r>%<CR><CR> 
-nnoremap <leader>pc :w! \| !compiler <c-r>%<CR><CR>
-nnoremap <leader>pu :!opout <c-r>%<CR><CR>
 " Commenting/Uncommenting {{{2
 " nnoremap <leader>cc :setlocal formatoptions=cro<CR>
 " nnoremap <leader>nc :setlocal formatoptions-=cro<CR>
