@@ -51,29 +51,15 @@ nnoremap <silent> <leader>anv :vnew<Space>
 nnoremap <leader>bd :bd<CR>
 nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>bp :bprev<CR>
-" Cambiar Directorios / Comandos Man/Mover líneas {{{2
+" Cambiar Directorios/Mover líneas {{{2
 nnoremap <leader>cd :cd<Space>
 nnoremap <leader>cf :cd $HOME/KHelust/Git-Repos/dotfiles<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cj :m .+1<CR>==
 nnoremap <leader>ck :m .-2<CR>==
-nnoremap <leader>cm :Man<Space>
 nnoremap <leader>cn :cd $HOME/KHelust/Git-Repos/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
-" FZF maps {{{2
-nnoremap <leader>fb :Buffers<CR>
-nnoremap <leader>fc :Commands<CR>
-nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fh :History<CR>
-nnoremap <leader>fm :FZFMru<CR>
-nnoremap <leader>fs :Maps<CR>
-nnoremap <leader>ft :Filetypes<CR>
-nnoremap <leader>fw :Windows<CR>
-nnoremap <leader>fz :FZF<CR>
 " Git {{{2
-nnoremap <leader>gc :GCheckout<CR>
-nnoremap <leader>gf :GFiles<CR>
 nnoremap <leader>gg :G<CR>
-nnoremap <leader>gm :Commits<CR>
 nnoremap <leader>gp :Git push<CR>
 " Help {{{2
 nnoremap <leader>hc :helpclose<CR>

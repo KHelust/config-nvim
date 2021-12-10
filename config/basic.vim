@@ -17,13 +17,8 @@ call plug#begin('~/.config/nvim/plugged')
       Plug 'norcalli/nvim-colorizer.lua'  " The fastest Neovim colorizer.
     endif
       Plug 'liuchengxu/vim-which-key' " Displays available keybindings in popup.
-  " FZF
-      Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } " FZF latest binary.
-      Plug 'junegunn/fzf.vim' " FZF.
-      Plug 'pbogut/fzf-mru.vim' " MRU with FZF.
   " Git
       Plug 'tpope/vim-fugitive' " Illegal Git Integration.
-      Plug 'stsewd/fzf-checkout.vim' " Fzf git checout.
   " LaTeX
       Plug 'lervag/vimtex'
   " Markdown
@@ -57,7 +52,6 @@ call plug#begin('~/.config/nvim/plugged')
 call plug#end()
 
 " Settings
-
   set clipboard=unnamedplus                 " Use System clipboard.
   set cmdheight=1                           " More space for displaying messages.
   set cursorline                            " Horizontal line.
