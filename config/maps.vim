@@ -80,9 +80,6 @@ nnoremap <leader>qz :q!<CR>
 nnoremap <leader>sa /
 nnoremap <leader>sd ?
 nnoremap <leader>ss :%s//gI<Left><Left><Left>
-" Commenting/Uncommenting {{{2
-" nnoremap <leader>cc :setlocal formatoptions=cro<CR>
-" nnoremap <leader>nc :setlocal formatoptions-=cro<CR>
 " }}}
 " }}}
 
