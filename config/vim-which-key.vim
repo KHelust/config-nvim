@@ -33,13 +33,6 @@
   let g:which_key_map.c.f = 'Cambiar al directorio dotfiles'
   let g:which_key_map.c.n = 'Cambiar al directorio nvim'
   let g:which_key_map.c.w = 'Cambiar al directorio actual'
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> origin/master
   let g:which_key_map.c.p = { 'name' : '+Compilar' }
   let g:which_key_map.c.p.a = 'Compilar y abrir archivo'
   let g:which_key_map.c.p.c = 'Compilar'
@@ -47,14 +40,6 @@
   let g:which_key_map.d = { 'name' : '+Desplazar líneas' }
   let g:which_key_map.d.j = 'Desplazar línea hacia abajo'
   let g:which_key_map.d.k = 'Desplazar línea hacia arriba'
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 0d0da6b
-=======
->>>>>>> origin/master
->>>>>>> origin/master
   let g:which_key_map.f = { 'name' : '+Telescope' }
   let g:which_key_map.f.a = 'Telescope autocommands'
   let g:which_key_map.f.b = 'Telescope buffers'
