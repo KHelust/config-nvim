@@ -5,6 +5,7 @@
   source ~/.config/nvim/config/coc.vim
   source ~/.config/nvim/config/goyo.vim
   source ~/.config/nvim/config/table-mode.vim
+  source ~/.config/nvim/config/telescope.vim
   source ~/.config/nvim/config/vim-pandoc.vim
   source ~/.config/nvim/config/vim-which-key.vim
   source ~/.config/nvim/config/vimtex.vim
