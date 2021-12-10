@@ -44,6 +44,12 @@ call plug#begin('~/.config/nvim/plugged')
       Plug 'chrisbra/NrrwRgn' " Narrow Region.
   " Syntax
       Plug 'mboughaba/i3config.vim'
+  " Telescope
+      Plug 'kyazdani42/nvim-web-devicons'
+      Plug 'nvim-lua/plenary.nvim'
+      Plug 'nvim-lua/popup.nvim'
+      Plug 'nvim-telescope/telescope.nvim'
+      Plug 'nvim-telescope/telescope-fzy-native.nvim'
   " Theme
       Plug 'joshdick/onedark.vim'
       Plug 'vim-airline/vim-airline'
