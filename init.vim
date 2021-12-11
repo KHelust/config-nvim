@@ -1,6 +1,4 @@
 " Basic config
-  set wildmode=longest,list,full            " Completion style.
-  set wildmenu
 
 " Installing Vim-Plug
 if ! filereadable(expand('~/.config/nvim/autoload/plug.vim'))
@@ -92,7 +90,10 @@ call plug#end()
   set undofile                              " Saves undo history.
   set updatetime=300                        " Longer updatetime better experience.
   set shada=!,'10,<500,/50,:100,s100,h      " Config shada file.
+  set wildmode=longest,list,full            " Completion style.
+  set wildmenu
   set wrap                                  " Wrap long lines.
+
 " Lua
 lua require("khelust")
 
