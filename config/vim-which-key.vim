@@ -57,7 +57,6 @@
   let g:which_key_map.f.t = 'Telescope tipos de archivo'
   let g:which_key_map.f.v = 'Telescope opciones de Vim'
   let g:which_key_map.f.w = 'Fzf Listar Ventanas abiertas'
-  let g:which_key_map.f.z = 'Telescope buscar en el buffer actual'
   let g:which_key_map.g = { 'name' : '+Git' }
   let g:which_key_map.g.b = 'Telescope commits del buffer actual'
   let g:which_key_map.g.c = 'Telescope commits'

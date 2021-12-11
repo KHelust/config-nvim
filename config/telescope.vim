@@ -11,7 +11,6 @@ nnoremap <leader>fg :lua require('telescope.builtin').live_grep()<CR>
 nnoremap <leader>fh :lua require('telescope.builtin').search_history()<cr>
 nnoremap <leader>fk :lua require('telescope.builtin').keymaps()<cr>
 nnoremap <leader>fm :lua require('telescope.builtin').man_pages()<CR>
-nnoremap <leader>fn :lua require('telescope').edit.neovim({ hidden = true })<CR>
 nnoremap <leader>fo :lua require('telescope.builtin').oldfiles()<CR>
 nnoremap <leader>fr :lua require('telescope.builtin').registers()<cr>
 nnoremap <leader>fs :lua require('telescope.builtin').colorscheme()<cr>
