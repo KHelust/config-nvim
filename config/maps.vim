@@ -53,8 +53,8 @@ nnoremap <leader>bn :bnext<CR>
 nnoremap <leader>bp :bprev<CR>
 " Cambiar Directorios/Compilar {{{2
 nnoremap <leader>cd :cd<Space>
-nnoremap <leader>cf :cd $HOME/KHelust/Git-Repos/dotfiles<CR>%:p:h<CR>:pwd<CR>
-nnoremap <leader>cn :cd $HOME/KHelust/Git-Repos/config-nvim<CR>%:p:h<CR>:pwd<CR>
+nnoremap <leader>cf :cd $HOME/KHelust/dotfiles<CR>%:p:h<CR>:pwd<CR>
+nnoremap <leader>cn :cd $HOME/KHelust/config-nvim<CR>%:p:h<CR>:pwd<CR>
 nnoremap <leader>cw :cd %:p:h<CR>:pwd<CR>
 nnoremap <leader>cpa :w! \| !compiler <c-r>%<CR> \|:!opout <c-r>%<CR><CR> 
 nnoremap <leader>cpc :w! \| !compiler <c-r>%<CR><CR>
