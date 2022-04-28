@@ -51,6 +51,7 @@ call plug#begin('~/.config/nvim/plugged')  " Completion
       Plug 'nvim-telescope/telescope-fzy-native.nvim'
   " Theme
       Plug 'joshdick/onedark.vim'
+      Plug 'navarasu/onedark.nvim'
       Plug 'vim-airline/vim-airline'
   " Neovim Tree shitter
       Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -107,6 +108,10 @@ endif
   let maplocalleader = ","                  " maplocalleader.
 
 " ColorScheme
+  " colorscheme onedark
+  let g:onedark_config = {
+      \ 'style': 'darker',
+  \}
   colorscheme onedark
 
 " Nvim-Colorizer
